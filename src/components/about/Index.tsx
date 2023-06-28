@@ -18,7 +18,7 @@ export default function About(){
                         title="Nossa História"
                         image= {fileIcon}
                         text="Fundada no ano de 1970 por Antônio Gonçalves, a empresa iniciou os seus trabalhos em Patos de Minas ainda de maneira arcaica. Um simples açougueiro da cidade percebeu que existia um mercado muito diferente que agregaria muito para o planeta no que tange sustentabilidade e valores. Nosso projeto é coletar subprodutos animais que antes eram destinados de forma incorreta ao meio ambiente e agregar valor a eles, produzindo proteínas, gorduras e novas matérias-primas para diversos setores da economia nacional."
-                        style="w-[100%] md:w-[550px] xl:w-[500px] rounded" //syles gerais
+                        style="w-[100%] md:w-[500px]  rounded" //syles gerais
                         styleImage='w-7 h-7 mr-3'
                     />
 
