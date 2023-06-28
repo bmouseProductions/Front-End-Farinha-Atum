@@ -12,7 +12,7 @@ export default function About(){
             <div className='w-ful p-5 flex flex-col items-center lg:flex-row lg:justify-center gap-10'data-aos="fade-up" data-aos-duration="1500">
                 <img src={ilustracao} alt="" className='md:max-w-md rounded' />
 
-                <div className='flex flex-col gap-5 lg:hidden'>
+                <div className='flex flex-col xl:flex-row gap-5 xl:hidden'>
                     <AcordionComponent 
                         id="accordion1" 
                         title="Nossa História"
@@ -32,7 +32,7 @@ export default function About(){
                     />
                 </div>
 
-                <div className='hidden lg:block'>
+                <div className='hidden xl:block'>
                     <BasicTabs />
                 </div>
                 
