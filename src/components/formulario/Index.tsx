@@ -25,7 +25,7 @@ export const Formulario = () => {
 
   const propostaFileRef = useRef<HTMLInputElement | null>(null);
 
-  const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
+  const handleChange = (e: ChangeEvent<HTMLInputElement> | ChangeEvent<HTMLTextAreaElement>) => {
     const { id, value } = e.target;
     setFormData((prevData) => ({
       ...prevData,
@@ -92,10 +92,11 @@ export const Formulario = () => {
       />
 
       <label htmlFor="mensagem">Mensagem:</label>
-      <input
+      <textarea
         id="mensagem"
-        type="text"
         name="mensagem"
+        rows={8}
+        cols={30}
         required
         onChange={handleChange}
         className="mb-5 h-[120px] max-w-[320px] md:max-w-none  md:w-[600px] rounded text-black px-2"
