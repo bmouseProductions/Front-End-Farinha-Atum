@@ -15,22 +15,7 @@ export default function Section2() {
                 <iframe className="w-full lg:w-[80%] h-[200px] md:h-[350px] lg:h-[450px] " src="https://www.youtube.com/embed/ZNHFoOvSlNs" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
             </div>*/}
 
-            {/* CHAMADA */}
-            <div className="mb-10 px-5 w-full md:w-[50%] flex flex-col items-center " data-aos="fade-up" data-aos-duration="1500">
-                <h2 className="text-5xl font-bold lg:w-[500px] text-center">Entre em contato</h2>
-                <p className=" md:text-center mt-10 text-xl ">
-                    Para solicitar um orçamento ou obter mais informações envie uma mensagem através do formulário abaixo.
-                </p>
-            </div>
-
-            {/* FORM */}
-            <div className="mb-32 px-5 flex items-center gap-28" >
-                <div data-aos="fade-right" data-aos-duration="1800">
-                    <Formulario />
-                </div>
-                
-                <img src={farinha} alt="ilustração de um dalmata" className="w-[400px] h-[253px] hidden xl:block" data-aos="fade-left" data-aos-duration="1500"/>
-            </div>
+            
 
             {/* APLICAÇÃO */}
             <div className="mb-16 px-5 w-full md:w-[50%] flex flex-col items-center " data-aos="fade-up-right" data-aos-duration="1500">
@@ -101,6 +86,24 @@ export default function Section2() {
                         style="w-full md:w-[450px] rounded" //syles gerais
                     />
                 </div>
+            </div>
+
+
+            {/* CHAMADA */}
+            <div className="mb-10 px-5 w-full md:w-[50%] flex flex-col items-center " data-aos="fade-up" data-aos-duration="1500">
+                <h2 className="text-5xl font-bold lg:w-[500px] text-center">Entre em contato</h2>
+                <p className=" md:text-center mt-10 text-xl ">
+                    Para solicitar um orçamento ou obter mais informações envie uma mensagem através do formulário abaixo.
+                </p>
+            </div>
+
+            {/* FORM */}
+            <div className="mb-32 px-5 flex items-center gap-28" >
+                <div data-aos="fade-right" data-aos-duration="1800">
+                    <Formulario />
+                </div>
+                
+                <img src={farinha} alt="ilustração de um dalmata" className="w-[400px] h-[253px] hidden xl:block" data-aos="fade-left" data-aos-duration="1500"/>
             </div>
 
 
